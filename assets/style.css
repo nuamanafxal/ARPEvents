@@ -469,10 +469,7 @@ color: white;
   right: 20px;
 }
 /*headerimg text stylle*/
-.event-style{
-  font-size:32px;
-  width:42%;
-}
+
 .ARP-style{
   width:40%;
 }
@@ -541,7 +538,7 @@ color: white;
     font-size:16px;
   }
   .event-style{
-    font-size:24px;
+    font-size:32px;
     width:50%;
   }
 } 
@@ -550,16 +547,12 @@ color: white;
 @media only screen and (min-width: 1200px) {
   .ARP-style{
     width:40%;
-    font-size:14px;
+    font-size:15px;
   }
   .LLC-style{
     font-size:18px;
   }
-  .ARP-style{
-    
-    font-size:15px;
-  }
-
+  
 
 }
 
