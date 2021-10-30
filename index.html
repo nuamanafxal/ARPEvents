@@ -44,13 +44,27 @@
          <div class="w3-display-left overlay"></div>
             <div class="w3-display-left w3-padding-large">
                <!--<div id="typing">I AM A <span>WEB DESIGNER</span></div>-->
-              <h1 class=" w3-xlarge theme-text-col w3-hide-samll w3-animate-top">Arabian Resources Publishing L.L.C</h1>
-              <h1 class="w3-xxlarge  theme-text-col w3-animate-left" style="width:800px;"><b>An</b>  Event Management, Marketing, and Trade Exhibitions Company .</h1><br>
-              <p style="width:40%;" class="theme-text-col  w3-animate-bottom w3-large">Arabian Resources Publishing (ARP) L.L.C  is a fully integrated and established Event Management, Marketing, and Trade Exhibitions Company founded in 2000. 
-               With a specialty in <strong>Cooking and Tourisms</strong>, we have organized numerous events in the United Arab Emirates <span id="dots">...</span> <span id="more">such as Live Cooking Classes, Chef Cooking Events, Cookery Competitions, Inter-School Quiz Competitions, Children’s Cultural Shows, and many more. Renowned brands such as <strong>Samsung, Panasonic, LG, Nikai, Black & Decker, United Foods, and ARLA foods, UNKIKAI, Tiffani Group, Sharjah Expo</strong>, and <strong>Ramadan Night Festival</strong> are just some of the companies that <span class="theme-tag">ARP L.L.C</span> has organized events for. 
-               <span class="theme-tag">ARP L.L.C</span> believes in providing its customers with the best experience and an event that will remain unforgettable. </span>
+              <h1 class="theme-text-col w3-hide-samll w3-animate-top LLC-style">Arabian Resources Publishing L.L.C</h1>
+              <h1 class="theme-text-col w3-animate-left event-style"><b>An</b>  Event Management, Marketing, and Trade Exhibitions Company .</h1><br>
+              <p  class="theme-text-col w3-animate-bottom w3-large ARP-style">Arabian Resources Publishing (ARP) L.L.C  is a fully integrated and established Event Management, Marketing, and Trade Exhibitions Company founded in 2000. 
+               With a specialty in <strong>Cooking and Tourisms</strong>, we have organized numerous events in the United Arab Emirates <span id="dots">...</span> 
             </p>
-            <button onclick="myFunction()" id="myBtn" class="w3-btn theme-bg-col">Read more</button>
+            
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-btn theme-bg-col">Read more</button>
+            <div id="id01" class="w3-modal">
+               <div class="w3-modal-content w3-animate-top w3-card-4">
+                 <header class="w3-container theme-bg-col"> 
+                   <span onclick="document.getElementById('id01').style.display='none'" 
+                   class="w3-button w3-display-topright">&times;</span>
+                 </header>
+                 <div class="w3-container w3-padding-large w3-black">
+                  <p  class="theme-text-col w3-large  theme-text-col">Arabian Resources Publishing (ARP) L.L.C  is a fully integrated and established Event Management, Marketing, and Trade Exhibitions Company founded in 2000. 
+                     With a specialty in <strong>Cooking and Tourisms</strong>, we have organized numerous events in the United Arab Emirates such as Live Cooking Classes, Chef Cooking Events, Cookery Competitions, Inter-School Quiz Competitions, Children’s Cultural Shows, and many more. Renowned brands such as <strong>Samsung, Panasonic, LG, Nikai, Black & Decker, United Foods, and ARLA foods, UNKIKAI, Tiffani Group, Sharjah Expo</strong>, and <strong>Ramadan Night Festival</strong> are just some of the companies that <span class="theme-tag">ARP L.L.C</span> has organized events for. 
+                     <span class="theme-tag">ARP L.L.C</span> believes in providing its customers with the best experience and an event that will remain unforgettable. </span>
+                  </p>
+                 </div>
+               </div>
+             </div>
             </div> 
       </div>
       <!-- Container (About Section) -->
@@ -275,28 +289,7 @@
             <i class="fa fa-twitter w3-hover-opacity"></i>
             <i class="fa fa-linkedin w3-hover-opacity"></i>
           </div>    
-      </footer>
-
-      <script>
-         function myFunction() {
-           var dots = document.getElementById("dots");
-           var moreText = document.getElementById("more");
-           var btnText = document.getElementById("myBtn");
-         
-           if (dots.style.display === "none") {
-             dots.style.display = "inline";
-             btnText.innerHTML = "Read more"; 
-             moreText.style.display = "none";
-           } else {
-             dots.style.display = "none";
-             btnText.innerHTML = "Read less"; 
-             moreText.style.display = "inline";
-           }
-         }
-         </script>
-         
-  
-     
+         </footer>
      <script>
       $('#basicSlider').multislider({
                continuous: true,
