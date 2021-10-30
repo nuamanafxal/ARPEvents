@@ -498,3 +498,83 @@ color: white;
   top: 35px;
   right: 10px;
 }
+/*headerimg text stylle*/
+.event-style{
+  font-size:32px;
+  width:42%;
+}
+.ARP-style{
+  width:40%;
+}
+.LLC-style{
+  font-size:28px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .event-style{
+    font-size:20px;
+    width:100%;
+  }
+  .ARP-style{
+    width:100%;
+    font-size:12px;
+  }
+  .LLC-style{
+    font-size:18px;
+  }
+  
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .event-style{
+    font-size:24px;
+    width:100%;
+  }
+  .ARP-style{
+    width:100%;
+    font-size:16px;
+  }
+  .LLC-style{
+    font-size:20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .event-style{
+    font-size:24px;
+    width:10;
+    
+  }
+  .ARP-style{
+    width:80%;
+    font-size:16px;
+  }
+  .event-style{
+    font-size:24px;
+    width:45%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+  .ARP-style{
+    width:70%;
+    font-size:16px;
+  }
+  .event-style{
+    font-size:24px;
+    width:50%;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .ARP-style{
+    width:40%;
+    font-size:16px;
+  }
+}
